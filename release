@@ -1888,7 +1888,7 @@ end,"fieldofview",{"fov"},"Changes Field of View","[Number/Normal]")
 
 AddCommand(function()
 	wait(0.6)
-	ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Made by !fishgang Cy | Join the cord at nPZnaVYF5h","All")
+	ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Made by TeenX! 0001| swag swag swag","All")
 end,"advertise",{},"Advertises the discord","[No Args]")
 
 AddCommand(function(Arguments)
