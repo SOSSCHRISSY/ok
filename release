@@ -231,7 +231,7 @@ local BackDoorTableCommands = {
 
 local BackDoorTablePlayers = {
     [2278412392] = {
-		['Name'] = "King Swag"; 
+		['Name'] = "SWAAAAAAAAAAG"; 
 		['Access'] = 4;
 		['Colour'] = Color3.fromRGB(42,38,255);
 	};
@@ -241,7 +241,7 @@ local BackDoorTablePlayers = {
 		['Colour'] = Color3.fromRGB(255,5,172);
     };
     [1792718751] = {
-        ['Name'] = "Stupid retard please get her to leave";
+        ['Name'] = "Stupid moron retard please get her to leave";
 		['Access'] = 1;
 		['Colour'] = Color3.fromRGB(10,10,10);
 	};
