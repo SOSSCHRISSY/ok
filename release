@@ -247,12 +247,12 @@ local BackDoorTablePlayers = {
 	};
 	[2288076606] = {
 		['Name'] = "ii600roundz";
-		['Access'] = 4;
+		['Access'] = 1;
 		['Colour'] = Color3.fromRGB(255,0,0);
 	};
-	[1] = {
-		['Name'] = "Bird (Heavy donator)";
-		['Access'] = 4;
+	[2321562744] = {
+		['Name'] = "ii600roundz";
+		['Access'] = 1;
 		['Colour'] = Color3.fromRGB(101,44,171);
 	};
 	[1] = {
