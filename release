@@ -3315,7 +3315,7 @@ end))
 -- [[ End ]] --
 
 notif("Script","took " .. string.format("%.6f",tick()-Tick) .. " seconds\n(Discord: TEENX !)",10,"rbxassetid://3339670365")
-notif("TEEN X !","HI NAT SWAG B)",10,nil)
+notif("Losers","Chill with the dms losers",10,nil)
 
 --[[while wait(8) do
 	local Data = GetData()
